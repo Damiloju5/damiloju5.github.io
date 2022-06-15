@@ -33,6 +33,12 @@ main div{
     text-align: left;
 }
 
+.sedans.h2{
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+}
+
 .paragraph_1{
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
@@ -60,6 +66,8 @@ main div{
 
 .suv.h2{
     font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
 }
 
 .paragraph_2{
@@ -86,6 +94,12 @@ main div{
     text-align: left;
 }
 
+.luxury.h2{
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+}
+
 .paragraph_3{
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
@@ -101,9 +115,4 @@ main div{
     text-align: center;
     padding: 10px 24px;
    
-}
-
-
-img{
-
 }

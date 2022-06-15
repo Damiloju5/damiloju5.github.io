@@ -7,7 +7,22 @@
 
 body{
     background-color: hsl(0, 0%, 95%);
+
 }
+
+@media screen and (min-width: 375px) {
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        background-color: hsl(0, 0%, 95%);
+    }
+    }
+    
+
 
 
 #design{
@@ -36,7 +51,8 @@ main{
 
 .sedans.h2{
     font-weight: 700;
-    font-family: big shoulder display;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
 }
 
 .paragraph_1{
@@ -68,7 +84,8 @@ main{
 
 .suv.h2{
     font-weight: 700;
-    font-family: big shoulder display;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
 }
 
 .paragraph_2{
@@ -100,8 +117,11 @@ main{
 
 .luxury.h2{
     font-weight: 700;
-    font-family: big shoulder display;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
 }
+
+
 .paragraph_3{
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
