@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    place-items: center;
+    height: 100vh;
+    
+}
+
+
+main{
+    display: grid;
+    grid-template-areas:
+    'a b c'
+    'a b c' ;
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+
+}
+main div{
+    padding: 2em;
+}
+
+.sedans{
+    background-color:  hsl(31, 77%, 52%);
+    grid-area: a;
+    color: white;
+    text-align: left;
+}
+
+.paragraph_1{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.s_button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+
+}
+
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    grid-area: b;
+    color: white;
+    text-align: left;
+}
+
+.suv.h2{
+    font-weight: 700;
+}
+
+.paragraph_2{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.suvs_button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    padding: 2px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+    color: white;
+    text-align: left;
+}
+
+.paragraph_3{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.luxury_button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+   
+}
+
+
+img{
+
+}

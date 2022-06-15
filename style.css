@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+#design{
+    display: flex;
+}
+
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.sedans{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 2em;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.sedans.h2{
+    font-weight: 700;
+    font-family: big shoulder display;
+}
+
+.paragraph_1{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.s_button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+
+}
+
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    color: white;
+    text-align: left;
+    width: 100%;
+    
+}
+
+.suv.h2{
+    font-weight: 700;
+    font-family: big shoulder display;
+}
+
+.paragraph_2{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.suvs_button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    padding: 2px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+
+.luxury.h2{
+    font-weight: 700;
+    font-family: big shoulder display;
+}
+.paragraph_3{
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.luxury_button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+}
