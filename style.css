@@ -39,7 +39,7 @@ body{
 }
 
 
-main{
+.main{
     width: 50%;
     margin: auto;
     display: flex; 
@@ -47,7 +47,6 @@ main{
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    flex-wrap: wrap;
    
 }
 
