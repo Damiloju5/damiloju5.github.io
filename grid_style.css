@@ -1,14 +1,33 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: hsl(0, 0%, 95%);
     display: flex;
     place-items: center;
-    height: 100vh;
-    
+    min-height: 100vh;  
+}
+
+@media screen and (max-width: 1440px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+        display: flex;
+        place-items: center;
+        height: 100vh;
+    }
+}
+
+
+@media screen and (min-width: 375px) {
+    body{
+        background-color: hsl(0, 0%, 95%);
+        display: flex;
+        place-items: center;
+        height: 100vh;
+    }
 }
 
 
@@ -47,13 +66,25 @@ main div{
 
 .s_button{
     border-radius: 20px;
-    color: hsl(0, 0%, 95%);
-    background-color: hsl(31, 77%, 52%);
-    border-color: hsl(0, 0%, 95%);
+    border: none;
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
     cursor: pointer;
     text-align: center;
     padding: 10px 24px;
+    margin-top: 20px;
 
+}
+
+.s_button:active{
+    border-radius: 20px;
+    border: none;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+    margin-top: 20px;
 }
 
 
@@ -76,16 +107,29 @@ main div{
     font-weight: 400;
 }
 
-.suvs_button{
+.suvs_button:active{
     border-radius: 20px;
+    border: none;
     color: hsl(0, 0%, 95%);
     background-color: hsl(184, 100%, 22%);
     padding: 2px;
-    border-color: hsl(0, 0%, 95%);
     cursor: pointer;
     text-align: center;
     padding: 10px 24px;
+    margin-top: 20px;
 }
+
+.suvs_button{
+    border-radius: 20px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+    margin-top: 20px;
+}
+
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
@@ -106,13 +150,25 @@ main div{
     font-weight: 400;
 }
 
-.luxury_button{
+.luxury_button:active{
     border-radius: 20px;
+    border: none;
     color: hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
-    border-color: hsl(0, 0%, 95%);
     cursor: pointer;
     text-align: center;
     padding: 10px 24px;
-   
+    margin-top: 20px;
 }
+
+.luxury_button{
+    border-radius: 20px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 24px;
+    margin-top: 20px;
+}
+
